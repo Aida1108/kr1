@@ -4,7 +4,7 @@ import java.util.List;
 public class EmployeeBook {
     private static Employee[] employees = new Employee[10];
     {
-        employees[0] = new Employee("Петров", "Иван", "Петрович", "1", 60000);
+        employees[0] = new Employee("Петров", "Иван", "Иванович", "1", 60000);
         employees[1] = new Employee("Иванов", "Кирилл", "Андреевич", "2", 50000);
         employees[2] = new Employee("Сидоров", "Игорь", "Михайлович", "3", 40000);
     }
